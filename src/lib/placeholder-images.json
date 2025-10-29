@@ -1,0 +1,82 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-home",
+      "description": "Abstract blue and purple technology background representing AI and data",
+      "imageUrl": "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzYxNDkyODM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract technology"
+    },
+    {
+      "id": "blog-ethical-ai",
+      "description": "A diverse group of people's hands working together over a glowing digital interface, representing ethical collaboration in technology.",
+      "imageUrl": "https://images.unsplash.com/photo-1542744095-291d1f67b221?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxldGhpY2FsJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3MjI1NTM0Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ethical collaboration"
+    },
+    {
+      "id": "blog-data-quality",
+      "description": "A foundation of digital blocks building up, representing data as the bedrock of AI",
+      "imageUrl": "https://images.unsplash.com/photo-1656523201068-8ed449fb1434?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwZm91bmRhdGlvbnxlbnwwfHx8fDE3NjE1NDYzNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital foundation"
+    },
+    {
+      "id": "blog-train-llm",
+      "description": "A visualization of a neural network or AI brain, representing the process of training an LLM.",
+      "imageUrl": "https://images.unsplash.com/photo-1677756119517-756a188d2d94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhaSUyMGJyYWlufGVufDB8fHx8MTcyMjU1NTYxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "AI brain"
+    },
+    {
+      "id": "blog1",
+      "description": "A network of glowing nodes and connections representing data points",
+      "imageUrl": "https://images.unsplash.com/photo-1720933017801-f9c93807cfc9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkYXRhJTIwbmV0d29ya3xlbnwwfHx8fDE3NjE0NDk4ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data network"
+    },
+    {
+      "id": "blog2",
+      "description": "A futuristic user interface showing image segmentation on a car",
+      "imageUrl": "https://images.unsplash.com/photo-1634715841611-67741dc71459?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb21wdXRlciUyMHZpc2lvbnxlbnwwfHx8fDE3NjE1NDYzNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "computer vision"
+    },
+    {
+      "id": "blog3",
+      "description": "Scales of justice with a brain icon on one side and a heart on the other, representing ethical AI",
+      "imageUrl": "https://images.unsplash.com/photo-1717501218424-b4724c7882bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxBSSUyMGV0aGljc3xlbnwwfHx8fDE3NjE1MDM4ODh8MA&ixlibrb-4.1.0&q=80&w=1080",
+      "imageHint": "AI ethics"
+    },
+    {
+      "id": "avatar1",
+      "description": "Professional headshot of a woman with glasses",
+      "imageUrl": "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwcm9mZXNzaW9uYWwlMjB3b21hbnxlbnwwfHx8fDE3NjE1Mzk3Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional woman"
+    },
+    {
+      "id": "avatar2",
+      "description": "Professional headshot of a man with a beard",
+      "imageUrl": "https://images.unsplash.com/photo-1568316674077-d72ee56de61c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBtYW58ZW58MHx8fHwxNzYxNDc5MjEyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional man"
+    },
+    {
+      "id": "avatar3",
+      "description": "Professional headshot of a smiling woman",
+      "imageUrl": "https://images.unsplash.com/photo-1612994451093-c6791c8989cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzbWlsaW5nJTIwd29tYW58ZW58MHx8fHwxNzYxNDM2OTg4fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "smiling woman"
+    },
+    {
+      "id": "services-hero",
+      "description": "An abstract image with layered geometric shapes and data streams.",
+      "imageUrl": "https://images.unsplash.com/photo-1739588589478-928d9f1f0f8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkYXRhJTIwc3RyZWFtc3xlbnwwfHx8fDE3NjE1NDYzNDR8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "data streams"
+    },
+    {
+      "id": "company-hero",
+      "description": "A diverse team collaborating around a table with laptops.",
+      "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3NjE1MTg5MTR8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "team collaboration"
+    },
+    {
+      "id": "contact-hero",
+      "description": "A close-up of a keyboard with a glowing '@' symbol.",
+      "imageUrl": "https://images.unsplash.com/photo-1759313912019-920547614648?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGlnaXRhbCUyMGNvbW11bmljYXRpb258ZW58MHx8fHwxNzYxNTQ2MzQ0fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital communication"
+    }
+  ]
+}
