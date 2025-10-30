@@ -18,7 +18,7 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog"
 import { useFirestore } from '@/firebase';
-import { useToast } from '../../../hooks/use-toast';
+import { useToast } from '@/hooks/use-toast';
 
 
 interface WorkerCardProps {
@@ -28,6 +28,7 @@ interface WorkerCardProps {
 
 export function WorkerCard({ worker, onEdit }: WorkerCardProps) {
   const firestore = useFirestore();
+  const { toast } = useToast();
   const isComplete = isOnboardingComplete(worker);
 
   const checklistItems = [
