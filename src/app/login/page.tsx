@@ -30,7 +30,6 @@ import { Input } from '@/components/ui/input';
 import { Loader2, LogIn } from 'lucide-react';
 import { useToast } from '../../components/ui/use-toast';
 import { AuthError, AuthErrorCodes } from 'firebase/auth';
-
 const formSchema = z.object({
   email: z.string().email('Please enter a valid email address.'),
   password: z
