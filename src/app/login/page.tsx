@@ -28,7 +28,7 @@ import {
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { Loader2, LogIn } from 'lucide-react';
-const { toast } = useToast();
+import { useToast } from '../../components/ui/toast.tsx';
 import { AuthError, AuthErrorCodes } from 'firebase/auth';
 
 const formSchema = z.object({

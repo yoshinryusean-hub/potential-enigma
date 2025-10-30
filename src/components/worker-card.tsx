@@ -18,7 +18,8 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog"
 import { useFirestore } from '@/firebase';
-import { useToast } from '../hooks/use-toast.tsx';
+
+import { useToast } from './ui/toast.tsx';
 
 
 

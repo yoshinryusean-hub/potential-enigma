@@ -11,7 +11,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Checkbox } from '@/components/ui/checkbox';
 import { ScrollArea } from '@/components/ui/scroll-area';
-const { toast } = useToast();
+import { useToast } from './use-toast.tsx';
 
 interface WorkerFormProps {
   worker: RemoteWorker;
