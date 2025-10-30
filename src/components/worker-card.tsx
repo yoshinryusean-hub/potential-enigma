@@ -18,7 +18,9 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog"
 import { useFirestore } from '@/firebase';
-import { useToast } from '../../hooks/use-toast';
+import { useToast } from '@/hooks/use-toast.tsx';
+
+
 
 
 interface WorkerCardProps {
