@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as ToastPrimitives from '@radix-ui/react-toast';
 import { X } from 'lucide-react';
 import { cva, type VariantProps } from 'class-variance-authority';
-import { cn } from '@/lib/utils'; // <-- This path might need adjustment!
+import { cn } from '@/lib/utils';
 
 const ToastProvider = ToastPrimitives.Provider;
 
@@ -111,7 +111,7 @@ ToastDescription.displayName = ToastPrimitives.Description.displayName;
 
 type ToastPropsWithVariant = React.ComponentPropsWithoutRef<typeof Toast> &
     VariantProps<typeof toastVariants>;
-
+export * from './use-toast';
 export {
   type ToastPropsWithVariant as ToastProps, // Exported to match the type used in use-toast.tsx
   ToastProvider,

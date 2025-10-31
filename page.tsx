@@ -1,5 +1,5 @@
 
-'use client';
+''use client';
 
 import { useState, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
@@ -28,7 +28,10 @@ import {
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { Loader2, LogIn } from 'lucide-react';
-import { useToast } from '@/hooks/use-toast';
+
+// FIX 1: Corrected relative import path for useToast
+import { useToast } from '../../components/ui/toast';
+
 import { AuthError, AuthErrorCodes } from 'firebase/auth';
 
 const formSchema = z.object({
@@ -40,10 +43,12 @@ const formSchema = z.object({
 
 export default function LoginPage() {
   const [isLoading, setIsLoading] = useState(false);
-  const { toast } = useToast();
   const auth = useAuth();
   const { user, isUserLoading } = useUser();
   const router = useRouter();
+  
+  // FIX 2: Initialization of the useToast hook
+  const { toast } = useToast(); 
 
   useEffect(() => {
     if (!isUserLoading && user) {
@@ -100,7 +105,7 @@ export default function LoginPage() {
       setIsLoading(false);
     }
   }
-
+// FORCED CACHE BUST 10/31/2025
   // Render nothing or a loader while redirecting
   if (isUserLoading || user) {
     return (
