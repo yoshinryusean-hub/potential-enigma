@@ -1,12 +1,13 @@
+'use client';
 
-''use client';
 
 import { useState, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
 import { useRouter } from 'next/navigation';
-import { useAuth, useUser } from '@/firebase';
+// CORRECT IMPORT (Using Direct Path)
+import { useAuth, useUser } from '@/firebase/provider';
 import {
   initiateEmailSignIn,
 } from '@/firebase/non-blocking-login';
