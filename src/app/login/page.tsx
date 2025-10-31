@@ -54,7 +54,7 @@ export default function LoginPage() {
     defaultValues: {
       email: '',
       password: '',
-
+},
     });
 
   const handleAuthError = (error: AuthError) => {
