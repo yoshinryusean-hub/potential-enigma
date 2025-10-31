@@ -40,7 +40,8 @@ const formSchema = z.object({
 });
 
 export function WorkerForm({ worker, onSave }: WorkerFormProps) {
-  const firestore = useFirestore();
+  const { toast } = useToast();
+    const firestore = useFirestore();
   const { register, handleSubmit, control, formState: { errors } } = useForm<RemoteWorker>({
     resolver: zodResolver(formSchema),
     defaultValues: worker,
