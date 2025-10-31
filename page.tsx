@@ -29,8 +29,8 @@ import {
 import { Input } from '@/components/ui/input';
 import { Loader2, LogIn } from 'lucide-react';
 
-// FIX 1: Corrected relative import path for useToast
-import { useToast } from '../../components/ui/toast';
+// FIX 1: Corrected import path for useToast
+import { useToast } from '@/components/ui/use-toast';
 
 import { AuthError, AuthErrorCodes } from 'firebase/auth';
 
@@ -41,7 +41,7 @@ const formSchema = z.object({
     .min(6, 'Password must be at least 6 characters long.'),
 });
 
-export default function LoginPage() {
+function LoginPage() {
   const [isLoading, setIsLoading] = useState(false);
   const auth = useAuth();
   const { user, isUserLoading } = useUser();
@@ -176,5 +176,8 @@ export default function LoginPage() {
         </CardContent>
       </Card>
     </div>
-  );
-}
+    );
+  
+  }
+  
+  export default LoginPage; //
